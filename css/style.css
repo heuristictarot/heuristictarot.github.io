@@ -62,7 +62,7 @@ url("https://dl.dropboxusercontent.com/u/7672939/acoa_page_splash.jpg") no-repea
   background: #FFFFFF;
   color: #494745;
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 20%;
 }
 .section-divider {
   margin-top: 20%;
@@ -82,8 +82,7 @@ hr:after {
 }
 
 .footer {
-    background: rgba(31, 26, 7, 0.9);
-  color: #d9d9d9; 
+  color: #494745;  
   padding-top: 20px;
   padding-bottom: 20px;
 }
