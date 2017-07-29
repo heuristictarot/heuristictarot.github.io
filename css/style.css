@@ -16,7 +16,7 @@ a {
   text-decoration: underline;
 }
 .hero {
-  background: black;
+  background: rgba(0, 0, 0, 0.75);
   text-align: center;
   margin: 10% auto;
   padding: 2rem 2rem;
