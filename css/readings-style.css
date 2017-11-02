@@ -1,0 +1,10 @@
+.hero {
+  height: 8rem;
+  background: url("http://heuristictarot.com/images/cards-header.jpg")
+    no-repeat center center;
+  background-size: cover;
+}
+.hero:before {
+  background-color:#000;
+  opacity:0.6;
+}
