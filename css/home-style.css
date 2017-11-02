@@ -1,0 +1,301 @@
+/*site-wide styles*/
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Alegreya Sans";
+}
+a {
+  color: #04a777;
+  text-decoration: underline;
+}
+a:hover {
+  color: #da2c38;
+  text-decoration: underline;
+}
+
+.btn-default,
+.btn-primary {
+  background-color: #04a777;
+  border-color: #04a777;
+  text-decoration: none;
+  color: white;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-top: 6px;
+}
+
+.btn-default:hover,
+.btn-primary:hover {
+  background-color: #da2c38;
+  border-color: #da2c38;
+  color: white;
+}
+.section-heading {
+  font-weight: 700;
+  color: #04a777;
+  margin-bottom: 2rem;
+}
+.content-section-b {
+  padding: 4rem 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.lead {
+  font-size: 1.5em;
+  font-weight: 400;
+  font-family: "Arbutus Slab";
+  margin: 0rem 0 3rem;
+}
+
+/*nav styles*/
+.navbar {
+  padding: 0.5rem 0;
+  background-color: white;
+}
+.navbar-brand {
+  font-family: "Megrim", cursive;
+  font-size: 2.75em;
+  color: black;
+  padding-left: 2rem;
+  text-decoration: none;
+}
+.navbar-toggler {
+  margin-right: 2rem;
+  background-color: white;
+}
+.navbar-toggler:focus {
+  outline: none;
+}
+.navbar-collapse {
+  background-color: white;
+  padding: 2rem;
+}
+.navbar-nav {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.nav-link {
+  text-decoration: none;
+}
+.scrolled {
+  display: none;
+}
+
+/*hero styles*/
+.hero {
+  margin-top: 6rem;
+  text-align: center;
+  color: #f8f8f8;
+  background: url("http://heuristictarot.com/images/ht-main.jpeg")
+    no-repeat center center;
+  background-size: cover;
+}
+.hero:before {
+  content:"";
+  position:absolute;
+  left: 0;
+  top: 6rem;
+  width:100%;
+  height:568px;
+  background-color:#000;
+  opacity:0.4;
+  
+}
+.hero-content {
+  padding: 8rem 0 16rem;
+  z-index: 2;
+}
+.tagline {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+
+.cta {
+  font-size: 2.5em;
+  letter-spacing: 0.03em;
+}
+
+.intro-divider {
+  width: 100%;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/*Welcome styles*/
+
+.list-inline-item {
+  border-left: 1px solid black;
+  text-decoration: underline;
+  padding: 0 1rem;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.links-inline > li:first-child {
+  border-left: 0px;
+}
+
+.list-inline > li > a {
+  color: #da2c38;
+}
+
+/*Newsletter signup styles*/
+.indicates-required {
+  color: #da2c38;
+}
+.asterisk {
+  color: #da2c38;
+}
+label {
+  font-size: 1.75rem;
+}
+.mc-field-group {
+  margin-bottom: 1.5rem;
+}
+#mce-EMAIL, #mce-NAME {
+  font-size: 1.25rem;
+  font-family: "Arial";
+  padding: 4px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  width: 100%;
+}
+
+
+
+/*Blog excerpts styles*/
+
+.blog-header {
+  margin-bottom: 1rem;
+  background-color: black;
+  
+}
+
+.blog-header:hover {
+  opacity:0.7;
+}
+
+/*Footer styles*/
+footer {
+  padding: 50px 0 25px;
+  background-color: #f8f8f8;
+}
+
+.footer-links > li > a {
+  font-size: 1rem;
+  color: #04a777;
+  text-decoration: none;
+}
+.footer-links > li > a:hover {
+
+  text-decoration: underline;
+}
+
+.footer-nav {
+  text-decoration: none;
+  border: none;
+  padding: 0;
+}
+
+.copyright {
+  font-size: 1rem;
+}
+/*media queries*/
+@media (max-width: 991px) {
+  .hero:before {
+    height: 556px;
+  }
+  .hero-content {
+  margin-right: 2rem;
+}
+
+.cta {
+  font-size: 2rem;
+}
+.intro-divider {
+  width: 80%;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+}
+
+@media (max-width: 767px) {
+  .hero:before {
+  height:364px;
+}
+  .hero-content {
+  margin-right: auto;
+  padding: 6rem 0;
+}
+  .blogroll {
+    margin: 1rem 0;
+  }
+
+}
+@media (max-width: 575px) {
+ .content-section-b {
+  padding: 4rem 2rem;
+
+}
+  footer {
+    text-align: center;
+}
+}
+@media (max-width: 480px) {
+ .navbar {
+  padding: 1rem 0;
+}
+  .navbar-brand {
+  font-size: 2rem;
+}
+  .lead {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 424px) {
+    .hero:before {
+  height:400px;
+}
+}
+@media (max-width: 370px) {
+   .navbar {
+  padding: 1.25rem 0;
+}
+  .navbar-brand {
+  font-size: 1.75rem;
+}
+  .list-inline-item {
+  padding: 0 .75rem;
+  font-size: 1.25rem;
+}
+.footer-nav {
+  padding: 0;
+}
+
+}
+@media (max-width: 341px) {
+    .navbar-brand {
+  font-size: 1.5rem;
+}
+ .content-section-b {
+  padding: 4rem 1rem;
+
+}
+}
+@media (max-width: 325px) {
+      .hero:before {
+  height:448px;
+}
+}
+@media (max-width: 310px) {
+  .navbar-brand {
+  display: none;
+}
+}
