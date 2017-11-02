@@ -1,38 +1,20 @@
-/**
- * Hide navbar brand by default
- */
-$(function() {
-  $("#header-logo").hide();
-});
-/**
- * Show navbar brand on scroll
- */
-$(function() {
-
-  $(window).scroll(function() {
-    var x = $(window).scrollTop();
-
-    if (x >= 400) {
-      $("#header-logo").show();
-    } else {
-      $("#header-logo").hide();
+/*enable toggle for nav*/
+$(document).on('click','.navbar-collapse',function(e) {
+    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+        $(this).collapse('hide');
     }
-
-  });
-
 });
-/**
- * Make navbar opaque on scroll
- */
 
 
+/*make brand disappear on scroll*/
 function checkScroll(){
-    var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
+    var startY = $('nav').height(); 
 
     if($(window).scrollTop() > startY){
-        $('.navbar').addClass("scrolled");
+        $('.navbar-brand').addClass("scrolled");
+       
     }else{
-        $('.navbar').removeClass("scrolled");
+        $('.navbar-brand').removeClass("scrolled");
     }
 }
 
