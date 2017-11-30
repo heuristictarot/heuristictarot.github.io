@@ -8,3 +8,36 @@
   background-color:#000;
   opacity:0.6;
 }
+.card-col  {
+  margin-bottom: 2rem;
+}
+
+.card-title {
+  color: #04a777;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.card-text {
+  font-family: "Alegreya Sans";
+  font-size: 1em;
+}
+.btn {
+  font-size: 1em;
+}
+.card {
+
+}
+@media screen and (max-width: 767px) {
+  .card {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .card {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
