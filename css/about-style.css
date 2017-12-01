@@ -58,18 +58,12 @@ p {
 
 /*about styles*/
 
-.round-img {
-  overflow: hidden;
+.round-img  {
   border-radius: 50%;
-  width: 250px;
   height: 250px;
+  width: 250px;
   border: 1px solid black;
-  
-}
 
-.round-img img {
-  margin-top: -24px;
-   height: 308px;
 }
 
 /*Resource styles*/
