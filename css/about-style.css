@@ -64,7 +64,7 @@ p {
   width: 250px;
   height: 250px;
   border: 1px solid black;
-  float: right;
+  
 }
 
 .round-img img {
@@ -92,7 +92,7 @@ p {
 
 @media screen and (max-width: 991px) {
   .round-img {
-  float: none;
+
   margin-bottom: 1.5rem;
   margin-right: 0;
   }
