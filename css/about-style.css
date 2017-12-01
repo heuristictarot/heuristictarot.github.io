@@ -88,3 +88,13 @@ p {
 }
 
 /*media queries*/
+
+@media screen and (max-width: 991px) {
+  .round-img {
+  float: none;
+  margin-bottom: 1.5rem;
+  margin-right: 0;
+  }
+
+
+}
