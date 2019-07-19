@@ -31,6 +31,23 @@ p {
   margin-top: 2rem;
 }
 
+.btn-outline-primary, .btn-outline-secondary {
+  text-decoration: none;
+  text-transform: none;
+}
+
+.btn-outline-primary a {
+  color: #007bff;
+}
+
+.list-inline-item, .bot-btn {
+  border: none;
+
+}
+.list-inline > li > a {
+  color: initial;
+}
+
 /*nav styles*/
 
 .navbar-brand {
@@ -51,7 +68,7 @@ p {
   margin: 0;
 }
 .hero-content {
-  
+
   padding: 0;
   z-index: 2;
 }
