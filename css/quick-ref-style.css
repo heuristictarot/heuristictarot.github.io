@@ -1,0 +1,93 @@
+body {
+  background-color: #000;
+  color: #FFF;
+  font-family: 'Quattrocento Sans', sans-serif;
+
+}
+h1 {
+  color: #ADBDFF;
+  font-family: 'Overlock SC', cursive;
+
+}
+.nav-icon {
+  width: 1.5em;
+  height: 1.5em;
+  padding: 0em;
+}
+.nav-tabs{
+  border-bottom: 1px solid #EFCB68;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #212529;
+  border-color: #EFCB68;
+}
+
+.nav-tabs .nav-link:hover {
+  border-color: #EFCB68;
+}
+
+.nav-tabs .nav-link:focus {
+  background-color: #212529;
+  border-color: #EFCB68;
+}
+
+
+button > * {
+  pointer-events: none;
+}
+
+table {
+  max-width: 90%;
+}
+
+
+th {
+  font-family: 'Overlock SC', cursive;
+  font-size: 1.5em;
+}
+
+caption {
+  display: none;
+}
+a {
+  color: #EFCB68;
+  text-decoration: underline;
+
+}
+a:hover {
+  color: #ADBDFF;
+
+}
+a:focus {
+}
+.h1-row {
+  margin: 1em auto;
+}
+.numerology {
+  color: #95A3A4;
+  font-style: italic;
+}
+
+footer {
+  margin-top: 2em;
+}
+/* media queries */
+@media screen and (min-width: 376px) {
+ .nav-icon {
+  width: 2em;
+  height: 2em;
+  padding: 0.25em;
+}
+@media screen and (min-width: 576px) {
+  table {
+    max-width: 80%;
+  }
+
+@media screen and (min-width: 992px) {
+  table {
+    max-width: 60%;
+  }
+}
+
+  }
